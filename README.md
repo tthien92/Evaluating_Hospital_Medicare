@@ -12,7 +12,7 @@ KNN_df - Complete dataset containing imputed information with no NaN
 pure_df - Incomplete (does not contain all providers) dataset with no imputed values and no NaN
 null_df - Complete dataset containing all true values (no imputation) **with** NaN values
 
-##Jupyter Notebooks
+## Jupyter Notebooks
 
 ### OS-Obtaining & Scrubbing
 Files in Data folder were cleaned: both NaN values and placeholder nulls were removed. Features about location and redundant names and footnotes were also removed.
@@ -20,11 +20,11 @@ To merge all five dataframes, each one was reformatted, so each provider could b
 
 ### Pre-Processed 
 
-![header](images/provider_prework.jpg)
+(images/provider_prework.jpg)
 
 ### Post-Processed
 
-![header](images/provider_postwork.jpg)
+(images/provider_postwork.JPG)
 
 Doing so reintroduced a lot of null values since each provider did not have the same amount of information present. Pseudolabeling was used to fill missing the missing target (Spending) variable while KNN imputation filled in the rest of the null values.
 
