@@ -20,7 +20,7 @@ To merge all five dataframes, each one was reformatted, so each provider could b
 
 ### Pre-Processed 
 
-(images/provider_prework.jpg) 
+![Image of preworked df](images/provider_prework.jpg) 
 
 ### Post-Processed
 
