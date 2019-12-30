@@ -20,11 +20,11 @@ To merge all five dataframes, each one was reformatted, so each provider could b
 
 ### Pre-Processed 
 
-(images/provider_prework.jpg)
+(images/provider_prework.jpg) 
 
 ### Post-Processed
 
-(images/provider_postwork.JPG)
+images/provider_postwork.JPG
 
 Doing so reintroduced a lot of null values since each provider did not have the same amount of information present. Pseudolabeling was used to fill missing the missing target (Spending) variable while KNN imputation filled in the rest of the null values.
 
