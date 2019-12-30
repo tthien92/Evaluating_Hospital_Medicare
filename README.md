@@ -1,6 +1,7 @@
 
 #  Evaluating Hospital Effectiveness with Government Data
 by Thien Nguyen
+
 blogs: https://thiennguyen.blog/
 
 ## Motivation
