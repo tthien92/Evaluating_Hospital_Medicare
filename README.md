@@ -20,11 +20,11 @@ To merge all five dataframes, each one was reformatted, so each provider could b
 
 ### Pre-Processed 
 
-![Image of preworked df](images/provider_prework.jpg) 
+![Image of preworked df](images/provider_prework.JPG) 
 
 ### Post-Processed
 
-images/provider_postwork.JPG
+![postworked_df](images/provider_postwork.JPG)
 
 Doing so reintroduced a lot of null values since each provider did not have the same amount of information present. Pseudolabeling was used to fill missing the missing target (Spending) variable while KNN imputation filled in the rest of the null values.
 
@@ -34,28 +34,28 @@ Doing so reintroduced a lot of null values since each provider did not have the 
 2. Features were scaled and outliers (points over 3 standard deviations) were dropped.
 3. Stepwise selection and RFE ranked feature importance.
 
-(images/rfe_feature_import.jpg)
+![image of feature importance](images/rfe_feature_import.JPG)
 
 4. Heatmap constructed from selected features to check multicollinearity
 
-(images/corr_heatmap.jpg)
+![heatmap](images/corr_heatmap.JPG)
 
 5. OLS model constructed and compared to test data with r2 = -3.83
 Low R2 most likely due to imputation and small test data.
 
-(images/OLS_error.jpg)
+![ols_error](images/OLS_error.JPG)
 
 6. Determined Optimal components for 95% Variance: 62 Components
 
-(images/PCA.jpg)
+![PCA](images/PCA.JPG)
 
 7. Pipeline Random Forest and XGBoost with PCA Analysis and evaluated against test data. 
 
-(images/ML_error.jpg)
+![ML_error](images/ML_error.JPG)
 
 8. Retested again comprehensive dataframe with random split
 
-(images/error_cheat.jpg)
+![error_cheat](images/error_cheat.JPG)
 
 ## Conclusion
 The investigation proved inconclusive as no model was able to predict the test data.
