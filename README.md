@@ -12,7 +12,9 @@ The US health care system is often shrouded in mystery. Hospitals purposely hide
 All data within the Data folder was extracted from https://www.medicare.gov/
 
 KNN_df - Complete dataset containing imputed information with no NaN
+
 pure_df - Incomplete (does not contain all providers) dataset with no imputed values and no NaN
+
 null_df - Complete dataset containing all true values (no imputation) **with** NaN values
 
 ## Jupyter Notebooks
