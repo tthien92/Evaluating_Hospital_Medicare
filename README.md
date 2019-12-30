@@ -34,7 +34,7 @@ Doing so reintroduced a lot of null values since each provider did not have the 
 2. Features were scaled and outliers (points over 3 standard deviations) were dropped.
 3. Stepwise selection and RFE ranked feature importance.
 
-![image of feature importance](images/rfe_feature_import.JPG)
+![image of feature importance](images/rfe_feat_import.JPG)
 
 4. Heatmap constructed from selected features to check multicollinearity
 
