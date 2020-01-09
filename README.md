@@ -8,14 +8,23 @@ blogs: https://thiennguyen.blog/
 
 The US health care system is often shrouded in mystery. Hospitals purposely hide their chargemaster lists, so it is impossible for free-market pressures to lower prices. Consumers are burdened with choosing the best health care without any metric to go by, other than hospital advertising. This project aims to find a way to allow consumers to find the best, most affordable hospital in order to allow economic pressure into the health care system.
 
-### Data Sources
-All data within the Data folder was extracted from https://www.medicare.gov/
+## Table of Contents
+
+Data - contains individual metrics of hospitals along with the target metric (spending score)
+
+images- images for readme file
+
+EM - Exploratory Data Analysis - Part II - Explored data and constructed OLS, RandomForest, and XGBoost models to predict data
+
+OS- Obtaining, Organizing, Scrubbing - Part I - Modified metrics from Data folder to create KNN_df, pure_df, and null_df.
 
 KNN_df - Complete dataset containing imputed information with no NaN
 
 pure_df - Incomplete (does not contain all providers) dataset with no imputed values and no NaN
 
 null_df - Complete dataset containing all true values (no imputation) **with** NaN values
+
+*All data within the Data folder was extracted from https://www.medicare.gov/
 
 ## Jupyter Notebooks
 
