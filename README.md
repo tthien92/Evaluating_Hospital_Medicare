@@ -10,19 +10,19 @@ The US health care system is often shrouded in mystery. Hospitals purposely hide
 
 ## Table of Contents
 
-Data - contains individual metrics of hospitals along with the target metric (spending score)
+**Data** - contains individual metrics of hospitals along with the target metric (spending score)
 
-images- images for readme file
+**Images**- images for readme file
 
-EM - Exploratory Data Analysis - Part II - Explored data and constructed OLS, RandomForest, and XGBoost models to predict data
+**EM - Exploratory Data Analysis** - Part II - Explored data and constructed OLS, RandomForest, and XGBoost models to predict data
 
-OS- Obtaining, Organizing, Scrubbing - Part I - Modified metrics from Data folder to create KNN_df, pure_df, and null_df.
+**OS- Obtaining, Organizing, Scrubbing** - Part I - Modified metrics from Data folder to create KNN_df, pure_df, and null_df.
 
-KNN_df - Complete dataset containing imputed information with no NaN
+**KNN_df** - Complete dataset containing imputed information with no NaN
 
-pure_df - Incomplete (does not contain all providers) dataset with no imputed values and no NaN
+**pure_df** - Incomplete (does not contain all providers) dataset with no imputed values and no NaN
 
-null_df - Complete dataset containing all true values (no imputation) **with** NaN values
+**null_df** - Complete dataset containing all true values (no imputation) **with** NaN values
 
 *All data within the Data folder was extracted from https://www.medicare.gov/
 
