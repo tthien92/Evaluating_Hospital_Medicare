@@ -26,6 +26,12 @@ The US health care system is often shrouded in mystery. Hospitals purposely hide
 
 *All data within the Data folder was extracted from https://www.medicare.gov/
 
+## Foreword
+
+This investigation proves inconclusive in the end due to a lack of data:
+
+![Image of null_df](images/missing_data.JPG)
+
 ## Jupyter Notebooks
 
 ### OS-Obtaining & Scrubbing
