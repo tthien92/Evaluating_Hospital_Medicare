@@ -2,7 +2,8 @@
 #  Evaluating Hospital Effectiveness with Government Data
 by Thien Nguyen
 
-blogs: https://thiennguyen.blog/
+[Blog](https://thiennguyen.blog/)
+
 
 ## Motivation
 
@@ -28,7 +29,7 @@ The US health care system is often shrouded in mystery. Hospitals purposely hide
 
 ## Foreword
 
-This investigation proves inconclusive in the end due to a lack of data:
+This investigation proves ultimately inconclusive in the end due to a lack of data:
 
 ![Image of null_df](images/missing_data.JPG)
 
