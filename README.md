@@ -32,6 +32,8 @@ This investigation proves inconclusive in the end due to a lack of data:
 
 ![Image of null_df](images/missing_data.JPG)
 
+The image above shows that 128 out of 130 columns contained null values. Altogether, 33% of the final dataframe after merging dataframes within the *Data* folder contain null values. Psuedolabeling the target variable and KNN imputation preserved data but only at the expense of test accuracy. When machine learning models were tested against pure data, a group of providers with no missing data, accuracy plummeted, as inferred data proved to be substantially different than real-world data.
+
 ## Jupyter Notebooks
 
 ### OS-Obtaining & Scrubbing
