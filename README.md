@@ -80,6 +80,8 @@ Low R2 most likely due to imputation and small test data.
 
 ![error_cheat](images/error_cheat.JPG)
 
+*There seems to be some possible clustering here. More investigation needed to determine if this is a natural occurence, or if it is due to data imputation.*
+
 ## Conclusion
 The investigation proved inconclusive as no model was able to predict the test data.
 Potential Issues included:
@@ -88,4 +90,7 @@ Potential Issues included:
 3. Imputation method oversimplified data
 4. Too much data dropped in Obtaining and Scrubbing (due to small target variable)
 
-
+## Future Consideration
+1. Webscrape additional or alternative cost data for each provider
+2. Oversample "pure" data to make models more sensitive to "real" data
+3. Investigate possible clustering
